@@ -45,6 +45,8 @@ header {
   position: fixed;
   top: 0;
   border-bottom: 0px solid #ffffff;
+  text-decoration: underline;
+  font-size: 15;
 }
 
 footer {
