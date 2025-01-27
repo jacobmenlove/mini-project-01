@@ -7,10 +7,10 @@
 /* Element Selectors */
 body {
   position: relative;
-  font-family: "Goudy Bookletter 1911", sans-serif;
+  font-family: "Lucida Console", "Courier New", monospace;
   font-size: 20px;
-  background-color: #FDF8F5;
-  color: #4F4846;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 h1,
@@ -35,23 +35,25 @@ a {
 
 header,
 footer {
-  height: 60px;
+  height: 65px;
   width: 100%;
   line-height: 60px;
-  background-color: #266150;
+  background-color: #000000;
 }
 
 header {
   position: fixed;
-  border-bottom: 10px solid #DDAF94;
+  top: 0;
+  border-bottom: 0px solid #ffffff;
 }
 
 footer {
   position: absolute;
   margin-top: 0;
   bottom: 0;
-  border-bottom: 10px solid #4F4846;
-  color: #FDF8F5;    
+  border-bottom: 0px solid #000000;
+  border-top: 5px #ffffff;
+  color: #ffffff;    
 }
 
 figure {
@@ -66,8 +68,8 @@ img {
 section {
   margin-bottom: 0;
   padding: 20px 10px 40px 10px;
-  border-top: 3px solid #DDAF94;
-  background-color:  #E8CEBF;
+  border-top: 3px solid #000000;
+  background-color:  #000000;
 }
 
 form {
@@ -75,7 +77,7 @@ form {
   margin: 0 auto;
   width: 500px;
   padding: 10px;
-  border: 5px solid #DDAF94;
+  border: 5px solid #bd7d33;
   border-radius: 20px;
 }
 
