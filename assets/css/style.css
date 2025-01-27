@@ -99,10 +99,13 @@ textarea {
 }
   
 button {
+  position: relative;
   height: 40px;
   width: 120px;
-  background-color: #4F4846;
+  background-color: #bd7d33;
+  border-radius: 12px;
   color: #FDF8F5;
+  
 }
  
 /* Class Selectors */
